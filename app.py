@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, flash, redirect, url_for
 
 import psycopg2  # pip install psycopg2
 import psycopg2.extras
-from oauthlib.uri_validate import host
 
 app = Flask(__name__)
 app.secret_key = "cairocoders-ednalan"
